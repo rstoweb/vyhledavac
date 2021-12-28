@@ -6,8 +6,20 @@
 
 header {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     margin-left: 145px
+}
+
+nav {
+   margin-right: 177px;
+   margin-top: 34px;
+}
+
+nav ul {
+    width: 300px;;
+    display: flex;
+    justify-content: space-between;
 }
