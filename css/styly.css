@@ -90,19 +90,23 @@ footer {
     background-color: rgb(66, 3, 30);
     display: flex;
     justify-content: space-around;
+    justify-items: left;
     column-gap: 60px;
     padding: 20px;
+    line-height: 1.5rem;
+}
+footer a {
+    color: #c3b3ba;
 }
 footer h1 {
-    color: white;
-    text-align: left;
+    color: #b8466e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
-.category {
+
+.category ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
 
 } 
-.subscribers {
-
-}
-.obout_us {
-    margin-right: 100px;
-}
