@@ -75,3 +75,13 @@ aside h1 {
     font-weight: bold;
     color: #6c0733;
 }
+
+article {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+article a {
+    margin-right: 80px;
+}
