@@ -1,4 +1,4 @@
-.obal {
+.container{
     width: 1024px;
     margin: 0 auto;
 
@@ -15,11 +15,17 @@ header {
 
 nav {
    margin-right: 177px;
-   margin-top: 34px;
+   margin-top: 20px;
 }
 
 nav ul {
     width: 300px;;
     display: flex;
     justify-content: space-between;
+}
+
+.promo img {
+    position: relative;
+    top: -45px;
+    z-index: -10;
 }
