@@ -64,7 +64,10 @@
 main {
     flex-grow: 2;
 }
-
+main img {
+    border: solid 9px #ede0d5;
+    box-shadow: rgba(0, 0, 0, .25) 2px 2px 2px 0;
+}
 aside {
     flex-grow: 1;
 }
@@ -80,6 +83,7 @@ article {
     display: flex;
     padding-top: 10px;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 article a {
