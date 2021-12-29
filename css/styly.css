@@ -45,3 +45,33 @@
     font-size: 2rem;
     color: rgb(255, 255, 255);
 }
+
+.promo-nadpis a {
+    display: inline-block;
+    width: 208px;
+    padding: 13px 0;
+    background-color: #6c0733;
+    box-shadow: rgba(0, 0, 0, .25) 4px 5px 2px 0;
+    font-size: 20px;
+    color: #fefefe;
+}
+
+.recipes {
+    display: flex;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 2;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+main h1,
+aside h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6c0733;
+}
