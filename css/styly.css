@@ -24,16 +24,16 @@
     justify-content: space-between;
 }
 
-.promo img {
+/* .promo {
     position: relative;
     top: -90px;
     z-index: -10;
-}
+} */
 
-.promo header{
+/* .promo header{
     position: relative;
     top: 150px;
-    left: 600px;
+    left: 600px; */
 }
 .promo h1 {
     font-size: 2rem;
