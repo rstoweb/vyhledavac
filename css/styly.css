@@ -57,39 +57,52 @@
 }
 
 .recipes {
-    display: flex;
+    display: grid;
+    grid-template-columns: 600px 400px;
+    column-gap: 20px;
     padding: 20px;
 }
 
+
 main {
-    flex-grow: 2;
-    margin-right: 20px;
     background: url(../obrazky/pozadi-sloupce.png) no-repeat top right;
+    
 }
+
+.recipes article {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+
+
 main img {
     border: solid 9px #ede0d5;
     box-shadow: rgba(0, 0, 0, .25) 2px 2px 2px 0;
 }
-aside {
-    flex-grow: 1;
-}
+
 
 main h1,
 aside h1 {
     text-transform: uppercase;
+    font-size: 18px;
     font-weight: bold;
     color: #6c0733;
+    padding-bottom: 10px;
 }
 
-article {
-    display: flex;
-    padding-top: 10px;
-    justify-content: space-between;
-    margin-bottom: 20px;
+main h2 {
+    font-weight: bold;
 }
 
-article a {
-    margin-right: 80px;
+.favorit article {
+
+}
+
+.tweet a {
+    color: #6c0733;
 }
 
 footer {
